@@ -13,4 +13,13 @@ STATUS OF THE REPOSITORY -
 	git status 
 returns the status of the last made commits and the rank of current repository
 
+STAGING AREA ---
+	there is an area between the actual directory and the it repository in which we can add files and then when we commit only changes to these files are comitted .
+this helps us to choose the files from directory which needs to be commited instead of always commiting all the files
 
+ADDING FILES TO STAGING AREA --
+	git add 
+
+COMMITING FILES --
+	git commit
+commits all the files present in staging area .
