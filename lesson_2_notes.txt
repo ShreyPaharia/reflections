@@ -1,0 +1,16 @@
+---LESSON -2 --
+	all the data or metadata about previous versions is stored in a repository called .git 
+as it starts with a period sign , it is hidden from the users as they dont have to interact with it directly
+
+-COMMIT --
+	a commit is a snapshot of a git repository
+
+MAKING A GIT REPOSITORY ---
+	git init 
+the directory we are in is made the repository.
+
+STATUS OF THE REPOSITORY -
+	git status 
+returns the status of the last made commits and the rank of current repository
+
+

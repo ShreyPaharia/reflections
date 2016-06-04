@@ -1,0 +1,26 @@
+LESSON -- 1
+	COMPARING DIFFERENCES BETWEEN TWO FILES -- TERMINAL
+	diff -u <old_file_name> <new_file_name>
+
+Q-- by making versions of documents you are working on you can access them whenever u want them and by comparing the difference between the two you can check for any mistakes made in the newer versions
+
+--- TO SEE ALL THE COMMITS MADE PREVIOUSLY -- IN THE GIT FOLDER
+	git log
+--gives all previous commits from newest to oldest 
+
+COMPARING DIFFERENCES OF DIFFERENT VERSIONS OF SAME DOCUMENT--
+	git diff <first_commit_id> <second_commit_id>
+
+Q-- by doing commits manually we can ensure that whenever there ---is a new feature added to the application we can save the file and all of the saved files make sense
+---when we are supposed to edit multiple files and the change makes sense together only then it is better to save the changes made in a single commit and git allows that
+
+CLONING A REPOSITORY --
+	git clone <repository name>
+it copies all the files in the repository along with history of all the changes made in different commits .
+
+OPENING A PREVIOUS VERSION OF A FILE --
+	git checkout <commit_id>
+we can open any file in that perticular commit after issueing this statement from the respective repository
+
+
+
