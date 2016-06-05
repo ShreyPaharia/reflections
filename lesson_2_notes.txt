@@ -23,3 +23,44 @@ ADDING FILES TO STAGING AREA --
 COMMITING FILES --
 	git commit
 commits all the files present in staging area .
+
+COMMIT MESSAGES ---
+	commit messages are in the form of commands instead of actions i.e. it is "edit" instead of "edited" .
+
+FINDING DIFFERENCE BETWEEN 
+	FILES IN STAGING AREA AND WORKING DIRECTORY
+		git diff
+git diff without any arguments gives this result
+	FILES IN STAGING AREA AND LAST COMMITS
+		git diff --staged
+
+BRANCHES ---
+	can be used when we want to test some experimental features or some other features in which u have to change a lot of data .
+
+DISPLAYING BRANCHES --- 
+	git branch
+to show all the branches 
+
+CREATING BRANCHES ---
+	git branch <branch_name>
+
+OPENING BRANCHES ---
+	git checkout <branch_name>
+
+REACHABILITY --- 
+	if we are on a particular branch and we do git log only the ids of the commits in a straight line of that branch can be seen none of the branches would be listed
+	none of the changes made in different branches would be visible in the other branch
+
+MERGING TWO BRANCHES ---
+	git merge <branch1_name> <branch2_name>
+
+FINDING THE CHANGE INTRODUCED IN A PARTICULAR COMMIT -
+	git show <commit_id>
+in this way we can find the changes introduced without the commit id of parent
+
+DELETING A BRANCH ---
+	git branch -d <branch_id> 
+deletes the branch label only but if there if no other reference to the commit then the branch cannot be accessed .
+
+ABORTING A MERGE --- 
+	git merge --abort 
