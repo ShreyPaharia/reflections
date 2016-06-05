@@ -1,0 +1,9 @@
+LOOKING AT THE REMOTE REPOSITORIES ---
+  git remote 
+CREATING REMOTE REPOSITORIES ON GITHUB ---
+  git remote add <remote_repository_name> <remote_repository_link>
+for this we have to first create a repository on github
+
+PUSHING A BRANCH TO GITHUB REPOSITORY
+  git push <repository_name> <branch_name>
+  
